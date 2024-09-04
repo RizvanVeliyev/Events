@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.TxtSecondPayment = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.TxtSecondAdd = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.TxtSecondBalance = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.TxtMainPayment = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.TxtMainAdd = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.TxtMainBalance = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.BtnSecondAdd = new System.Windows.Forms.Button();
             this.BtnSecondPay = new System.Windows.Forms.Button();
@@ -46,12 +46,12 @@
             this.BtnMainAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox10
+            // TxtSecondPayment
             // 
-            this.textBox10.Location = new System.Drawing.Point(146, 407);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(117, 22);
-            this.textBox10.TabIndex = 11;
+            this.TxtSecondPayment.Location = new System.Drawing.Point(146, 407);
+            this.TxtSecondPayment.Name = "TxtSecondPayment";
+            this.TxtSecondPayment.Size = new System.Drawing.Size(117, 22);
+            this.TxtSecondPayment.TabIndex = 11;
             // 
             // label10
             // 
@@ -63,12 +63,12 @@
             this.label10.TabIndex = 10;
             this.label10.Text = "Mexaric";
             // 
-            // textBox11
+            // TxtSecondAdd
             // 
-            this.textBox11.Location = new System.Drawing.Point(146, 355);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(117, 22);
-            this.textBox11.TabIndex = 9;
+            this.TxtSecondAdd.Location = new System.Drawing.Point(146, 355);
+            this.TxtSecondAdd.Name = "TxtSecondAdd";
+            this.TxtSecondAdd.Size = new System.Drawing.Size(117, 22);
+            this.TxtSecondAdd.TabIndex = 9;
             // 
             // label11
             // 
@@ -80,12 +80,12 @@
             this.label11.TabIndex = 8;
             this.label11.Text = "Medaxil";
             // 
-            // textBox12
+            // TxtSecondBalance
             // 
-            this.textBox12.Location = new System.Drawing.Point(146, 299);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(117, 22);
-            this.textBox12.TabIndex = 7;
+            this.TxtSecondBalance.Location = new System.Drawing.Point(146, 299);
+            this.TxtSecondBalance.Name = "TxtSecondBalance";
+            this.TxtSecondBalance.Size = new System.Drawing.Size(117, 22);
+            this.TxtSecondBalance.TabIndex = 7;
             // 
             // label12
             // 
@@ -97,12 +97,12 @@
             this.label12.TabIndex = 6;
             this.label12.Text = "Balans";
             // 
-            // textBox13
+            // TxtMainPayment
             // 
-            this.textBox13.Location = new System.Drawing.Point(146, 155);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(117, 22);
-            this.textBox13.TabIndex = 17;
+            this.TxtMainPayment.Location = new System.Drawing.Point(146, 155);
+            this.TxtMainPayment.Name = "TxtMainPayment";
+            this.TxtMainPayment.Size = new System.Drawing.Size(117, 22);
+            this.TxtMainPayment.TabIndex = 17;
             // 
             // label13
             // 
@@ -114,12 +114,12 @@
             this.label13.TabIndex = 16;
             this.label13.Text = "Mexaric";
             // 
-            // textBox14
+            // TxtMainAdd
             // 
-            this.textBox14.Location = new System.Drawing.Point(146, 101);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(117, 22);
-            this.textBox14.TabIndex = 15;
+            this.TxtMainAdd.Location = new System.Drawing.Point(146, 101);
+            this.TxtMainAdd.Name = "TxtMainAdd";
+            this.TxtMainAdd.Size = new System.Drawing.Size(117, 22);
+            this.TxtMainAdd.TabIndex = 15;
             // 
             // label14
             // 
@@ -131,12 +131,12 @@
             this.label14.TabIndex = 14;
             this.label14.Text = "Medaxil";
             // 
-            // textBox15
+            // TxtMainBalance
             // 
-            this.textBox15.Location = new System.Drawing.Point(146, 46);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(117, 22);
-            this.textBox15.TabIndex = 13;
+            this.TxtMainBalance.Location = new System.Drawing.Point(146, 46);
+            this.TxtMainBalance.Name = "TxtMainBalance";
+            this.TxtMainBalance.Size = new System.Drawing.Size(117, 22);
+            this.TxtMainBalance.TabIndex = 13;
             // 
             // label15
             // 
@@ -199,17 +199,17 @@
             this.Controls.Add(this.BtnMainPay);
             this.Controls.Add(this.BtnSecondPay);
             this.Controls.Add(this.BtnSecondAdd);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.TxtMainPayment);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.TxtMainAdd);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.TxtMainBalance);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.TxtSecondPayment);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.TxtSecondAdd);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.TxtSecondBalance);
             this.Controls.Add(this.label12);
             this.Name = "Form1";
             this.ResumeLayout(false);
@@ -235,17 +235,17 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox TxtSecondPayment;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox TxtSecondAdd;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox TxtSecondBalance;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox TxtMainPayment;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox TxtMainAdd;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox TxtMainBalance;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button BtnSecondAdd;
         private System.Windows.Forms.Button BtnSecondPay;
